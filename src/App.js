@@ -8,6 +8,7 @@ import { Contact } from "./pages/contact/Contact";
 import { About } from "./pages/about/About";
 
 import { Header } from "./components/header/Header";
+import { Navbar } from "./components/navbar/Navbar";
 
 import "./App.css";
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Home />} />
           </Routes>
+          <Navbar />
         </div>
     </BrowserRouter>
   );

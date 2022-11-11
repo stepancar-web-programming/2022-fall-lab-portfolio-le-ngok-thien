@@ -31,7 +31,7 @@ export const Home = () => {
                     />
                   </h1>
                 </div>
-                <p>"description"</p>
+                <p>Welcome to Kaitouz's homepage</p>
 
                 <div className="intro_btn-action pb-5">
                   <Link to="/about">
