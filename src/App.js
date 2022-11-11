@@ -7,11 +7,14 @@ import { Portfolio } from "./pages/portfolio/Portfolio";
 import { Contact } from "./pages/contact/Contact";
 import { About } from "./pages/about/About";
 
+import { Header } from "./components/header/Header";
+
 import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
+        <Header />
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />} />
