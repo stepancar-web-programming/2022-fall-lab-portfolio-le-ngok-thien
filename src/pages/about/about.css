@@ -1,5 +1,9 @@
+.container {
+    padding-top: 2rem;
+}
+
 .sec_sp {
-    margin-bottom: calc(3rem + 5.128vw)
+    margin-bottom: 7rem;
 }
 
 .table td,
