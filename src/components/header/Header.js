@@ -16,7 +16,6 @@ export const Header = () => {
                     </Link>
                     
                     <div class="header__links">
-                    {/* <p>{window.location.pathname}</p> */}
                     <Link className={location.pathname === '/' ? 'header__link_active' : 'header__link'} to="/">Home</Link>
                     <Link className={location.pathname === '/about' ? 'header__link_active' : 'header__link'} to="/about">About</Link>
                     <Link className={location.pathname === '/portfolio' ? 'header__link_active' : 'header__link'} to="/portfolio">Portfolio</Link>
